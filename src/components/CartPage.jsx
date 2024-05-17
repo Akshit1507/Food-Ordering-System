@@ -1,7 +1,7 @@
 import "./cart.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-const CartPage = ({ cart }) => {
+const CartPage = ({ cart, setCart }) => {
   const navigateTo = useNavigate();
 
   const handlePayment = () => {
@@ -16,6 +16,7 @@ const CartPage = ({ cart }) => {
       .then((response) => {
         console.log("Order placed successfully:", response.data);
         // Redirect to payment success page
+        setCart([]);
         navigateTo("/payment-success");
       })
       .catch((error) => {

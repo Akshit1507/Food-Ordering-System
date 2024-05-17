@@ -42,7 +42,7 @@ function App() {
               cart.length === 0 ? (
                 <h1>Add Items to Cart</h1>
               ) : (
-                <CartPage cart={cart} />
+                <CartPage cart={cart} setCart={setCart} />
               )
             }
           />
