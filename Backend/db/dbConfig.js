@@ -3,7 +3,7 @@ import mysql from "mysql";
 const dbConfig = {
   host: "localhost",
   user: "root",
-  password: "Nobita123!", // Replace with your MySQL password
+  password: "password", // Replace with your MySQL password
   database: "foodOrderingSystem",
 };
 
