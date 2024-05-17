@@ -1,0 +1,79 @@
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.foodCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+}
+
+.foodImage {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.foodDescription {
+  text-align: center;
+}
+
+.foodTitle {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.foodPrice {
+  margin-top: 5px;
+  font-size: 1.1rem;
+  color: #888;
+}
+
+.foodDetails {
+  margin-top: 10px;
+}
+
+.quantity {
+  margin-top: 10px;
+}
+
+.quantityInput {
+  width: 40px;
+  text-align: center;
+}
+
+.itemBtn {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.addToCartBtn {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addToCartBtn:hover {
+  background-color: #0056b3;
+}
+
+.badge {
+  background-color: red;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-left: 5px;
+}
